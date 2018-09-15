@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func backButton(_ sender: UIButton)
+    {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
